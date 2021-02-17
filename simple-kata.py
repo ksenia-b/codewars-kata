@@ -17,3 +17,17 @@ def array_diff(a, b):
             r.append(i)
     return r
 
+# or
+def list_diff(a, b):
+    return [x for x in a if x not in b]
+
+
+
+# 2
+# Given a string made up of letters a, b, and/or c, switch the position of letters a and b (change a to b and vice versa). Leave any incidence of c untouched.
+#
+# Example:
+#
+# 'acb' --> 'bca'
+# 'aabacbaa' --> 'bbabcabb'
+
